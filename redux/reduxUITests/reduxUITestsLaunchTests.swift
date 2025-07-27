@@ -1,13 +1,13 @@
 //
-//  apiUITestsLaunchTests.swift
-//  apiUITests
+//  reduxUITestsLaunchTests.swift
+//  reduxUITests
 //
-//  Created by DHEERAJ on 20/07/25.
+//  Created by DHEERAJ on 27/07/25.
 //
 
 import XCTest
 
-final class apiUITestsLaunchTests: XCTestCase {
+final class reduxUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

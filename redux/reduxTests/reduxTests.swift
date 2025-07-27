@@ -1,14 +1,14 @@
 //
-//  apiTests.swift
-//  apiTests
+//  reduxTests.swift
+//  reduxTests
 //
-//  Created by DHEERAJ on 20/07/25.
+//  Created by DHEERAJ on 27/07/25.
 //
 
 import Testing
-@testable import api
+@testable import redux
 
-struct apiTests {
+struct reduxTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

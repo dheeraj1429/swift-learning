@@ -6,63 +6,68 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A26282532E3659B4008F2A0C /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A26282522E3659B4008F2A0C /* ReSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		A25804ED2E2D1CA300D76A6C /* PBXContainerItemProxy */ = {
+		A26282312E365589008F2A0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A25804D42E2D1CA200D76A6C /* Project object */;
+			containerPortal = A26282182E365588008F2A0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A25804DB2E2D1CA200D76A6C;
-			remoteInfo = api;
+			remoteGlobalIDString = A262821F2E365588008F2A0C;
+			remoteInfo = redux;
 		};
-		A25804F72E2D1CA300D76A6C /* PBXContainerItemProxy */ = {
+		A262823B2E365589008F2A0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A25804D42E2D1CA200D76A6C /* Project object */;
+			containerPortal = A26282182E365588008F2A0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A25804DB2E2D1CA200D76A6C;
-			remoteInfo = api;
+			remoteGlobalIDString = A262821F2E365588008F2A0C;
+			remoteInfo = redux;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A25804DC2E2D1CA200D76A6C /* api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = api.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A25804EC2E2D1CA300D76A6C /* apiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A25804F62E2D1CA300D76A6C /* apiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26282202E365588008F2A0C /* redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26282302E365589008F2A0C /* reduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A262823A2E365589008F2A0C /* reduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A25804DE2E2D1CA200D76A6C /* api */ = {
+		A26282222E365588008F2A0C /* redux */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = api;
+			path = redux;
 			sourceTree = "<group>";
 		};
-		A25804EF2E2D1CA300D76A6C /* apiTests */ = {
+		A26282332E365589008F2A0C /* reduxTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = apiTests;
+			path = reduxTests;
 			sourceTree = "<group>";
 		};
-		A25804F92E2D1CA300D76A6C /* apiUITests */ = {
+		A262823D2E365589008F2A0C /* reduxUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = apiUITests;
+			path = reduxUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A25804D92E2D1CA200D76A6C /* Frameworks */ = {
+		A262821D2E365588008F2A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26282532E3659B4008F2A0C /* ReSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A262822D2E365589008F2A0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A25804E92E2D1CA300D76A6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A25804F32E2D1CA300D76A6C /* Frameworks */ = {
+		A26282372E365589008F2A0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +77,169 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A25804D32E2D1CA200D76A6C = {
+		A26282172E365588008F2A0C = {
 			isa = PBXGroup;
 			children = (
-				A25804DE2E2D1CA200D76A6C /* api */,
-				A25804EF2E2D1CA300D76A6C /* apiTests */,
-				A25804F92E2D1CA300D76A6C /* apiUITests */,
-				A25804DD2E2D1CA200D76A6C /* Products */,
+				A26282222E365588008F2A0C /* redux */,
+				A26282332E365589008F2A0C /* reduxTests */,
+				A262823D2E365589008F2A0C /* reduxUITests */,
+				A26282512E3659B4008F2A0C /* Frameworks */,
+				A26282212E365588008F2A0C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A25804DD2E2D1CA200D76A6C /* Products */ = {
+		A26282212E365588008F2A0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A25804DC2E2D1CA200D76A6C /* api.app */,
-				A25804EC2E2D1CA300D76A6C /* apiTests.xctest */,
-				A25804F62E2D1CA300D76A6C /* apiUITests.xctest */,
+				A26282202E365588008F2A0C /* redux.app */,
+				A26282302E365589008F2A0C /* reduxTests.xctest */,
+				A262823A2E365589008F2A0C /* reduxUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A26282512E3659B4008F2A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A25804DB2E2D1CA200D76A6C /* api */ = {
+		A262821F2E365588008F2A0C /* redux */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A25805002E2D1CA300D76A6C /* Build configuration list for PBXNativeTarget "api" */;
+			buildConfigurationList = A26282442E365589008F2A0C /* Build configuration list for PBXNativeTarget "redux" */;
 			buildPhases = (
-				A25804D82E2D1CA200D76A6C /* Sources */,
-				A25804D92E2D1CA200D76A6C /* Frameworks */,
-				A25804DA2E2D1CA200D76A6C /* Resources */,
+				A262821C2E365588008F2A0C /* Sources */,
+				A262821D2E365588008F2A0C /* Frameworks */,
+				A262821E2E365588008F2A0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A25804DE2E2D1CA200D76A6C /* api */,
+				A26282222E365588008F2A0C /* redux */,
 			);
-			name = api;
+			name = redux;
 			packageProductDependencies = (
+				A26282522E3659B4008F2A0C /* ReSwift */,
 			);
-			productName = api;
-			productReference = A25804DC2E2D1CA200D76A6C /* api.app */;
+			productName = redux;
+			productReference = A26282202E365588008F2A0C /* redux.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A25804EB2E2D1CA300D76A6C /* apiTests */ = {
+		A262822F2E365589008F2A0C /* reduxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A25805032E2D1CA300D76A6C /* Build configuration list for PBXNativeTarget "apiTests" */;
+			buildConfigurationList = A26282472E365589008F2A0C /* Build configuration list for PBXNativeTarget "reduxTests" */;
 			buildPhases = (
-				A25804E82E2D1CA300D76A6C /* Sources */,
-				A25804E92E2D1CA300D76A6C /* Frameworks */,
-				A25804EA2E2D1CA300D76A6C /* Resources */,
+				A262822C2E365589008F2A0C /* Sources */,
+				A262822D2E365589008F2A0C /* Frameworks */,
+				A262822E2E365589008F2A0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A25804EE2E2D1CA300D76A6C /* PBXTargetDependency */,
+				A26282322E365589008F2A0C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A25804EF2E2D1CA300D76A6C /* apiTests */,
+				A26282332E365589008F2A0C /* reduxTests */,
 			);
-			name = apiTests;
+			name = reduxTests;
 			packageProductDependencies = (
 			);
-			productName = apiTests;
-			productReference = A25804EC2E2D1CA300D76A6C /* apiTests.xctest */;
+			productName = reduxTests;
+			productReference = A26282302E365589008F2A0C /* reduxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A25804F52E2D1CA300D76A6C /* apiUITests */ = {
+		A26282392E365589008F2A0C /* reduxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A25805062E2D1CA300D76A6C /* Build configuration list for PBXNativeTarget "apiUITests" */;
+			buildConfigurationList = A262824A2E365589008F2A0C /* Build configuration list for PBXNativeTarget "reduxUITests" */;
 			buildPhases = (
-				A25804F22E2D1CA300D76A6C /* Sources */,
-				A25804F32E2D1CA300D76A6C /* Frameworks */,
-				A25804F42E2D1CA300D76A6C /* Resources */,
+				A26282362E365589008F2A0C /* Sources */,
+				A26282372E365589008F2A0C /* Frameworks */,
+				A26282382E365589008F2A0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A25804F82E2D1CA300D76A6C /* PBXTargetDependency */,
+				A262823C2E365589008F2A0C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A25804F92E2D1CA300D76A6C /* apiUITests */,
+				A262823D2E365589008F2A0C /* reduxUITests */,
 			);
-			name = apiUITests;
+			name = reduxUITests;
 			packageProductDependencies = (
 			);
-			productName = apiUITests;
-			productReference = A25804F62E2D1CA300D76A6C /* apiUITests.xctest */;
+			productName = reduxUITests;
+			productReference = A262823A2E365589008F2A0C /* reduxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A25804D42E2D1CA200D76A6C /* Project object */ = {
+		A26282182E365588008F2A0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					A25804DB2E2D1CA200D76A6C = {
+					A262821F2E365588008F2A0C = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					A25804EB2E2D1CA300D76A6C = {
+					A262822F2E365589008F2A0C = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = A25804DB2E2D1CA200D76A6C;
+						TestTargetID = A262821F2E365588008F2A0C;
 					};
-					A25804F52E2D1CA300D76A6C = {
+					A26282392E365589008F2A0C = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = A25804DB2E2D1CA200D76A6C;
+						TestTargetID = A262821F2E365588008F2A0C;
 					};
 				};
 			};
-			buildConfigurationList = A25804D72E2D1CA200D76A6C /* Build configuration list for PBXProject "api" */;
+			buildConfigurationList = A262821B2E365588008F2A0C /* Build configuration list for PBXProject "redux" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A25804D32E2D1CA200D76A6C;
+			mainGroup = A26282172E365588008F2A0C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A26282502E36593B008F2A0C /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A25804DD2E2D1CA200D76A6C /* Products */;
+			productRefGroup = A26282212E365588008F2A0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A25804DB2E2D1CA200D76A6C /* api */,
-				A25804EB2E2D1CA300D76A6C /* apiTests */,
-				A25804F52E2D1CA300D76A6C /* apiUITests */,
+				A262821F2E365588008F2A0C /* redux */,
+				A262822F2E365589008F2A0C /* reduxTests */,
+				A26282392E365589008F2A0C /* reduxUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A25804DA2E2D1CA200D76A6C /* Resources */ = {
+		A262821E2E365588008F2A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A25804EA2E2D1CA300D76A6C /* Resources */ = {
+		A262822E2E365589008F2A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A25804F42E2D1CA300D76A6C /* Resources */ = {
+		A26282382E365589008F2A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +249,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A25804D82E2D1CA200D76A6C /* Sources */ = {
+		A262821C2E365588008F2A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A25804E82E2D1CA300D76A6C /* Sources */ = {
+		A262822C2E365589008F2A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A25804F22E2D1CA300D76A6C /* Sources */ = {
+		A26282362E365589008F2A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +273,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A25804EE2E2D1CA300D76A6C /* PBXTargetDependency */ = {
+		A26282322E365589008F2A0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A25804DB2E2D1CA200D76A6C /* api */;
-			targetProxy = A25804ED2E2D1CA300D76A6C /* PBXContainerItemProxy */;
+			target = A262821F2E365588008F2A0C /* redux */;
+			targetProxy = A26282312E365589008F2A0C /* PBXContainerItemProxy */;
 		};
-		A25804F82E2D1CA300D76A6C /* PBXTargetDependency */ = {
+		A262823C2E365589008F2A0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A25804DB2E2D1CA200D76A6C /* api */;
-			targetProxy = A25804F72E2D1CA300D76A6C /* PBXContainerItemProxy */;
+			target = A262821F2E365588008F2A0C /* redux */;
+			targetProxy = A262823B2E365589008F2A0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A25804FE2E2D1CA300D76A6C /* Debug */ = {
+		A26282422E365589008F2A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +349,7 @@
 			};
 			name = Debug;
 		};
-		A25804FF2E2D1CA300D76A6C /* Release */ = {
+		A26282432E365589008F2A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,14 +405,14 @@
 			};
 			name = Release;
 		};
-		A25805012E2D1CA300D76A6C /* Debug */ = {
+		A26282452E365589008F2A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"api/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"redux/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -408,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.api;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.redux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -416,14 +433,14 @@
 			};
 			name = Debug;
 		};
-		A25805022E2D1CA300D76A6C /* Release */ = {
+		A26282462E365589008F2A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"api/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"redux/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.api;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.redux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +461,7 @@
 			};
 			name = Release;
 		};
-		A25805042E2D1CA300D76A6C /* Debug */ = {
+		A26282482E365589008F2A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,16 +470,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.reduxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/api.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/api";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redux.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/redux";
 			};
 			name = Debug;
 		};
-		A25805052E2D1CA300D76A6C /* Release */ = {
+		A26282492E365589008F2A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,87 +488,106 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.reduxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/api.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/api";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redux.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/redux";
 			};
 			name = Release;
 		};
-		A25805072E2D1CA300D76A6C /* Debug */ = {
+		A262824B2E365589008F2A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.reduxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = api;
+				TEST_TARGET_NAME = redux;
 			};
 			name = Debug;
 		};
-		A25805082E2D1CA300D76A6C /* Release */ = {
+		A262824C2E365589008F2A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.apiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.reduxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = api;
+				TEST_TARGET_NAME = redux;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A25804D72E2D1CA200D76A6C /* Build configuration list for PBXProject "api" */ = {
+		A262821B2E365588008F2A0C /* Build configuration list for PBXProject "redux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A25804FE2E2D1CA300D76A6C /* Debug */,
-				A25804FF2E2D1CA300D76A6C /* Release */,
+				A26282422E365589008F2A0C /* Debug */,
+				A26282432E365589008F2A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A25805002E2D1CA300D76A6C /* Build configuration list for PBXNativeTarget "api" */ = {
+		A26282442E365589008F2A0C /* Build configuration list for PBXNativeTarget "redux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A25805012E2D1CA300D76A6C /* Debug */,
-				A25805022E2D1CA300D76A6C /* Release */,
+				A26282452E365589008F2A0C /* Debug */,
+				A26282462E365589008F2A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A25805032E2D1CA300D76A6C /* Build configuration list for PBXNativeTarget "apiTests" */ = {
+		A26282472E365589008F2A0C /* Build configuration list for PBXNativeTarget "reduxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A25805042E2D1CA300D76A6C /* Debug */,
-				A25805052E2D1CA300D76A6C /* Release */,
+				A26282482E365589008F2A0C /* Debug */,
+				A26282492E365589008F2A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A25805062E2D1CA300D76A6C /* Build configuration list for PBXNativeTarget "apiUITests" */ = {
+		A262824A2E365589008F2A0C /* Build configuration list for PBXNativeTarget "reduxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A25805072E2D1CA300D76A6C /* Debug */,
-				A25805082E2D1CA300D76A6C /* Release */,
+				A262824B2E365589008F2A0C /* Debug */,
+				A262824C2E365589008F2A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A26282502E36593B008F2A0C /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A26282522E3659B4008F2A0C /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A26282502E36593B008F2A0C /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A25804D42E2D1CA200D76A6C /* Project object */;
+	rootObject = A26282182E365588008F2A0C /* Project object */;
 }

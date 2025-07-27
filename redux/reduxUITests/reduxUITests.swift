@@ -1,13 +1,13 @@
 //
-//  apiUITests.swift
-//  apiUITests
+//  reduxUITests.swift
+//  reduxUITests
 //
-//  Created by DHEERAJ on 20/07/25.
+//  Created by DHEERAJ on 27/07/25.
 //
 
 import XCTest
 
-final class apiUITests: XCTestCase {
+final class reduxUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
